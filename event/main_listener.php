@@ -47,7 +47,7 @@ class main_listener implements EventSubscriberInterface
 			case 'unreadposts':
 			case 'unanswered':
 			case 'active_topics':
-				header("Refresh:60");
+				header("Refresh:120");
 //				echo "Blaubeerkuchen!";
 				continue;
 			default:

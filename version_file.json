@@ -1,0 +1,11 @@
+{
+    "stable": {
+        "1.0": {
+            "current": "0.1.0",
+            "announcement": "https://github.com/heinrich-k/phpBB-searchreload",
+            "download": "https://github.com/heinrich-k/phpBB-searchreload/archive/master.zip",
+            "eol": null,
+            "security": false
+        }
+    }
+}
