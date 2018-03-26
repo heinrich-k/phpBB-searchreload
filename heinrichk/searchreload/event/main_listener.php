@@ -4,18 +4,14 @@ namespace heinrichk\searchreload\event;
 
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-//error_reporting(E_ALL);
-//ini_set('display_errors', 1);
-
 class main_listener implements EventSubscriberInterface
 {
 	/** @var \phpbb\request\request */
 	protected $request;
-	protected $search_id;
 
 	public function __construct(\phpbb\request\request $request)
 	{
-    $this->request = $request;
+		$this->request = $request;
 	}
 
 	
@@ -39,17 +35,13 @@ class main_listener implements EventSubscriberInterface
      */
     public function reload_page($event)
     {
-		$request = new \phpbb\request\request();
-		$search_id		= $this->request->variable('search_id', '');
-		switch($search_id) {
+		switch($this->request->variable('search_id', '')) {
 			case 'egosearch':
 			case 'newposts':
 			case 'unreadposts':
 			case 'unanswered':
 			case 'active_topics':
 				header("Refresh:120");
-				continue;
-			default:
 		}
 
     }

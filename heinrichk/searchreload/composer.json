@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "Reloads unread posts and new posts pages.",
 	"homepage": "https://github.com/heinrich-k/phpBB-searchreload",
-	"version": "1.0.1",
-	"time": "2017-10-24",
+	"version": "1.0.2",
+	"time": "2018-03-26",
 	"license": "GPL-2.0",
 	"authors": [
 		{
