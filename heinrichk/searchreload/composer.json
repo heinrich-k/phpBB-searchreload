@@ -27,9 +27,9 @@
 			"phpbb/phpbb": ">=3.2.1"
 		},
 		"version-check": {
-			"host": "github.com",
-			"directory": "/heinrich-k/phpBB-searchreload",
-			"filename": "version_file.json"
+			"host": "www.phpBB.com",
+			"directory": "/customise/db/extension/searchreload/",
+			"filename": "version_check"
 		}
 	}
 }
