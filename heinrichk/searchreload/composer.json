@@ -5,7 +5,7 @@
 	"homepage": "https://github.com/heinrich-k/phpBB-searchreload",
 	"version": "1.0.3",
 	"time": "2019-03-21",
-	"license": "GPL-2.0",
+	"license": "GPL-2.0-only",
 	"authors": [
 		{
 			"name": "Heinrich Krebs",
